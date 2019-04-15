@@ -1,0 +1,4 @@
+data/
+vendor/
+nbproject/
+composer.lock

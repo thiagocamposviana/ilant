@@ -1,0 +1,24 @@
+{
+    "name": "thiagocamposviana/ilant",
+    "description": "ILAnt",
+    "homepage": "https://github.com/thiagocamposviana/ilant",
+    "license": "proprietary",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Thiago Campos Viana",
+            "homepage": "https://github.com/thiagocamposviana"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "ILAnt": ""
+        },
+        "files": ["lib/Utils/simple_html_dom.php"]
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "guzzle/plugin-cookie": "^3.9",
+        "guzzle/plugin-history": "^3.9"
+    }
+}
